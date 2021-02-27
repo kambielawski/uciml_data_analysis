@@ -10,12 +10,14 @@ Revenue, gross profit, gross margin, user data, company classification, and vari
 
 #### Analysis
 The file companies_analysis.ipynb contains a summary of the exploration into this dataset.
-The file companies_scratchpad.ipynb is a scratchpad and documentation of everything I did starting from loading the data from the .csv file. 
+The file [companies_scratchpad.ipynb](https://github.com/kambielawski/uciml_data_analysis/blob/master/companies_scratchpad.ipynb) is a scratchpad and documentation of everything I did starting from loading the data from the .csv file. 
 Quick summary:
 I failed at implementing nonlinear least-squares regression on the dataset. Exploding gradients. Couldn't figure it out. Then, I wanted to actually *see* a mixture model in action, so I picked two variables from each entry (gross margin and revenue per user), and did a mixture model for just those two variables so I could visualize it. I classified the entries and visualized the Gaussians with a contour map.
 
 
 ## Drug consumption dataset
+The file [Drug_Consumption_Scratchpad.ipynb](https://github.com/kambielawski/uciml_data_analysis/blob/master/Drug_Consumption_Scratchpad.ipynb) contains all of my exploration. 
+The file drug_consumption_analysis.ipynb contains a summary of the exploration into this dataset.
 #### Summary of the dataset:
 drug_consumption.data
 from: https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29#
