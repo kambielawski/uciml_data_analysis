@@ -1,11 +1,13 @@
 # uciml_data_analysis
 
 ## Companies dataset
+Analysis here: [companies_analysis.ipynb](https://github.com/kambielawski/uciml_data_analysis/blob/master/companies_analysis.ipynb)
+
 This dataset I had been collecting on the side for the past few weeks and haven't had a chance to dive deep into it. This project looked like a perfect opportunity to combine the statistical techniques we've learned in class with a sideproject of mine. A little background: The Universal Scalability Law is a new theory of how systems scale. I'm trying to apply it to technology companies. On page 18 of this pdf: https://cdn2.hubspot.net/hubfs/498921/eBooks/scalability_new.pdf there is a statistical technique used that I wanted to replicate. I implemented nonlinear least-squares regression in my notebook, because I thought it'd be useful. I know it's not a mixture model - ignore it if it won't count for this project.
 
 
 #### Summary of the dataset: 
-companies_dataset.csv
+[companies_dataset.csv](https://github.com/kambielawski/uciml_data_analysis/blob/master/drug_consumption.data)
 Revenue, gross profit, gross margin, user data, company classification, and various related metrics for ~17 different companies
 
 #### Analysis
@@ -16,8 +18,10 @@ I failed at implementing nonlinear least-squares regression on the dataset. Expl
 
 
 ## Drug consumption dataset
+Analysis here: [drug_consumption_analysis](https://github.com/kambielawski/uciml_data_analysis/blob/master/drug_consumption_analysis.ipynb)
+
 The file [Drug_Consumption_Scratchpad.ipynb](https://github.com/kambielawski/uciml_data_analysis/blob/master/Drug_Consumption_Scratchpad.ipynb) contains all of my exploration. 
-The file drug_consumption_analysis.ipynb contains a summary of the exploration into this dataset.
+
 #### Summary of the dataset:
 drug_consumption.data
 from: https://archive.ics.uci.edu/ml/datasets/Drug+consumption+%28quantified%29#
